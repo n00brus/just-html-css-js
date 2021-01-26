@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.header__container{
+    padding: 50px 0;
+}
+.header__menu{
+    float: right;
+}
