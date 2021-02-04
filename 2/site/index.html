@@ -12,27 +12,38 @@
 <body>
     <section class="header">
         <div class="container header__container">
-            <div class="header__menu">Menu</div>
+            <div class="header__menu-open">Menu</div>
             <div class="header__logo"></div>
+            <div class="header__menu">
+                <div class="header__menu__item">item1</div>
+                <div class="header__menu__item">item2</div>
+                <div class="header__menu__item">item3</div>
+                <div class="header__menu__item">item4</div>
 
+            </div>
         </div>
+
     </section>
-    <section class="intro">
+    <section class="intro ">
+
         <div class="container intro__container">
+
             <div class="intro__header">WE DESIGH THINGS</div>
             <div class="intro__subheader">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, illo.
             </div>
-            <div class="intro__buttons">
-                <div class="button button1">
-                    <div class="button-text">Hire us</div>
+            <form class="intro__buttons">
+                <div class="button button2" id="hireUs">
+                    Hire us
                 </div>
-                <div class="button button2">
-                    <div class="button-text">Our Works</div>
+                <div class="button button2" id="OurWorks">
+                    Our Works
                 </div>
 
-            </div>
+            </form>
             <div class="intro__arrow"></div>
+
         </div>
+
     </section>
     <section class="duties">
         <div class="container container__padding container__flex">
@@ -63,10 +74,13 @@
         </div>
     </section>
     <section class="subscription">
-        <div class="subscription__container container__padding">
-            <input type="text" class="subscription__input" placeholder="Enter Your email adress for newsletter">
-            <div class="button subscription__button"> Subscribe</div>
-        </div>
+        <form href="#" class="subscription__container container__padding">
+
+            <input type="text" class="subscription__input" placeholder="Enter Your email adress for newsletter"
+                name="email">
+            <div class="button subscription__button" type="submit"> Subscribe</div>
+        </form>
+
     </section>
     <section class="works">
         <div class="container container__padding">
@@ -76,26 +90,69 @@
             </div>
             <div class="container__flex">
                 <div class="col-3">
-                    <div class="work__picture work__picture1"></div>
+                    <div class="work__picture work__picture1">
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
-                    <div class="work__picture work__picture2"></div>
+                    <div class="work__picture work__picture2">
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
-                    <div class="work__picture work__picture3"></div>
+                    <div class="work__picture work__picture3">
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
-                    <div class="work__picture work__picture4"></div>
+                    <div class="work__picture work__picture4">
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
-                    <div class="work__picture work__picture5"></div>
+                    <div class="work__picture work__picture5">
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     <div class="work__picture work__picture6">
-                        <div class="work__picture__header">ABAZOO WEBSITE</div>
-                        <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Ab, dolore!</div>
-                        <div class="button work__picture__show">SHOW PROJECT</div>
+                        <div class="work__overlay">
+                            <div class="work__picture__header">ABAZOO WEBSITE</div>
+                            <div class="work__picture__subheader">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Ab, dolore!</div>
+                            <div class="button work__picture__show">SHOW PROJECT</div>
+                        </div>
                     </div>
                 </div>
 
@@ -111,15 +168,121 @@
                 <div class="comment__arrow-left"></div>
                 <div class="comments__center">
                     <div class="comment__photo"></div>
-                    <div class="comment__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Doloremque, eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptatibus?
+
+                    <div class="comment__description">
                     </div>
-                    <div class="comment__author">John Smith</div>
+                    <div class="comment__author"></div>
                 </div>
                 <div class="comment__arrow-right"></div>
             </div>
         </div>
     </section>
+    <section class="team">
+        <div class="container container__padding">
+            <div class="team__header"> OUR <span class="team__header-colored">TEAM</span> </div>
+            <div class="team__subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ratione? Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Eius, eos!</div>
+            <div class="container__padding container__flex">
+                <div class="col-4 team__notselected">
+                    <div class="team__photo team__photo1"></div>
+                    <div class="team__member-name">CATHERINA GAIL</div>
+                    <div class="team__member-social-media">
+                        <div class="team__member-facebook team__member-socials"></div>
+                        <div class="team__member-twitter team__member-socials"></div>
+                        <div class="team__member-google team__member-socials"></div>
+
+                    </div>
+                    <div class="team__member-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repudiandae, temporibus.</div>
+                </div>
+                <div class="col-4 team__notselected">
+                    <div class="team__photo team__photo2"></div>
+
+                    <div class="team__member-name">CATHERINA GAIL1 </div>
+                    <div class="team__member-social-media">
+                        <div class="team__member-facebook team__member-socials"></div>
+                        <div class="team__member-twitter team__member-socials"></div>
+                        <div class="team__member-google team__member-socials"></div>
+
+                    </div>
+                    <div class="team__member-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repudiandae, temporibus.</div>
+                </div>
+                <div class="col-4 team__notselected">
+                    <div class="team__photo team__photo3"></div>
+                    <div class="team__member-name">CATHERINA GAIL</div>
+                    <div class="team__member-social-media">
+                        <div class="team__member-facebook team__member-socials"></div>
+                        <div class="team__member-twitter team__member-socials"></div>
+                        <div class="team__member-google team__member-socials"></div>
+
+                    </div>
+                    <div class="team__member-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repudiandae, temporibus.</div>
+                </div>
+                <div class="col-4 team__notselected">
+
+                    <div class="team__photo team__photo4"></div>
+                    <div class="team__member-name">CATHERINA GAIL</div>
+                    <div class="team__member-social-media">
+                        <div class="team__member-facebook team__member-socials"></div>
+                        <div class="team__member-twitter team__member-socials"></div>
+                        <div class="team__member-google team__member-socials"></div>
+
+                    </div>
+                    <div class="team__member-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Repudiandae, temporibus.</div>
+
+
+                </div>
+            </div>
+
+            <div class="team__buttons">
+                <div class="team__button"></div>
+                <div class="team__button"></div>
+                <div class="team__button"></div>
+
+                <div class="team__button"></div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="hiring">
+
+        <div class="container__padding hiring__container">
+            <div class="hiring__header"> OUR <span class="team__header-colored">TEAM</span> </div>
+            <div class="hiring__subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, a! Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. At, obcaecati.</div>
+            <form class="hiring__form" id="Hireform">
+                <div class="form__inputs">
+                    <input type="text" class="hiring__form-input" placeholder="Your Email" name="somename">
+                    <input type="text" class="hiring__form-input" placeholder="Subject">
+                </div>
+                <textarea name="" id="" class="input__message" placeholder="Your Message"></textarea>
+                <div class="form__inputs">
+                    <button class="button button1" id="somesss"> Hire Us</button>
+                    <div class="form__social-medias">
+                        <div class="form__facebook form__social-media"></div>
+                        <div class="form__twitter form__social-media"></div>
+
+                        <div class="form__google form__social-media"></div>
+
+                        <div class="form__basketball form__social-media"></div>
+
+                        <div class="form__BE form__social-media"></div>
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>
